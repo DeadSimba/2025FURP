@@ -1,0 +1,11 @@
+kaggle网址：https://www.kaggle.com/datasets/ritesaluja/bank-note-authentication-uci-data
+说明：
+Banknote Authentication数据集是一个从纸币鉴别过程中的图像里提取的数据，用来预测钞票的真伪的数据集1。该数据集中含有1372个样本，每个样本由5个数值型变量构成，4个输入变量和1个输出变量。
+真币率为55.54%
+这些变量分别是：
+
+variance of Wavelet Transformed image (continuous): 小波变换后图像的方差
+skewness of Wavelet Transformed image (continuous): 小波变换后图像的偏度
+curtosis of Wavelet Transformed image (continuous): 小波变换后图像的峰度
+entropy of image (continuous): 图像的熵
+class (integer): 钞票的真伪，0表示真币，1表示假币
